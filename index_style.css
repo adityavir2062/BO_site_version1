@@ -1,0 +1,110 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-between;
+    
+}
+.logup {
+    margin-right: 25px;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 1px;
+    background-color: rgb(7, 13, 48);
+    color: whitesmoke;
+    border: 1px red solid;
+    padding: 5px;
+    font-size: large;
+    border-radius: 5%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.logup ul li{
+    display: inline-block;
+    margin: 1px;
+    background-color: rgb(7, 13, 48);
+    color: whitesmoke;
+    border: 1px red solid;
+    border-radius: 5%;
+    font-size: large;
+    padding: 5px;
+}
+.logup ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.container_1{
+    text-align: center;
+    margin-block: 0px;
+
+}
+.lm_movie_list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.lm_movie_list .movie_entry{
+    height: 220px;
+    width: 220px;
+    align-items: center;
+}
+.movie_entry{
+    
+    border-radius: 5%;
+    border: 1px black solid;
+    background-color: darkgrey;
+}
+.latest_movies{
+    background-color:darkcyan ;
+}
+body{
+    background-color: aquamarine;
+}
+
+.entry_img{
+    padding-top: 10px;
+}
+
+.container_2{
+    text-align: center;
+    margin-block: 0px;
+}
+.mp_movie_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.poll_entry{
+    height: 220px;
+    width: 220px;
+    align-items: center;
+    border-radius: 5%;
+    border: 1px black solid;
+    background-color: darkgrey;
+}
+.poll_entry button{
+    background-color: darkgrey;
+    height: 220px;
+    width: 220px;
+    border-radius: 5%;
+    
+}
+.poll_entry img{
+    padding-top: 10px;
+}
+.container_1{
+    margin-bottom: 0px;
+}
+.container_2{
+    margin-top: 0px;
+}
+.Movie_Polls{
+    background-color: darkseagreen;
+}
